@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 
@@ -25,7 +25,8 @@ end
 gem 'jquery-rails', '2.2.1'
 
 group :test do
-  gem 'capybara', '2.0.2'
+  # gem 'capybara', '2.0.2'
+  gem 'capybara', '1.1.2'
 end
 
 group :production do
