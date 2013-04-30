@@ -15,6 +15,7 @@ describe "Static pages" do
       visit '/static_pages/home'
       page.should have_selector('title', :text => "#{base_title} | Home")
     end
+
   end
 
   describe "Help page" do
@@ -55,4 +56,5 @@ describe "Static pages" do
       page.should have_selector('title', :text => "#{base_title} | Contact")
     end
   end
+
 end
